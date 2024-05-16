@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Nav Bar*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -31,4 +32,29 @@ nav .right ul {
 nav .right ul li {
     list-style-type: none;
     margin-right: 20px;
+}
+/*main Content*/
+main .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-image: url('./Images/F-img.jpg');
+
+}
+main .content #h22{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    color: white;
+    background-color: rgb(88, 88, 250);
+    width: 150px;
+    height:40px;
 }
