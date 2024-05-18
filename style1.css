@@ -261,7 +261,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(229, 229, 229);
+  background-color: rgb(238, 238, 238);
 }
 .partners-section .inner .first {
   padding-right: 150px;
@@ -305,7 +305,18 @@ a {
 .tag-section .tag {
   width: 80px;
   height: 30px;
-  padding-left: 5px;
   text-align: center;
   background-color: rgb(86, 86, 255);
+  position: absolute;
+  border: 1px solid black;
+}
+/*Footer Section*/
+.footer {
+  padding: 80px 50px 30px 50px;
+  background-color: rgb(238, 238, 238);
+}
+.image {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
