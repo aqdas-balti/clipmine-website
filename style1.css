@@ -228,9 +228,28 @@ p {
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 .benefits-sec .third-list img {
   height: 80px;
   width: 80px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: 10;
+}
+/*Collection Section*/
+.collection-sec {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.collection-sec .first-item img {
+  height: 150px;
+  width: 400px;
+}
+.collection-sec .second-item img {
+  height: 150px;
+  width: 400px;
 }
