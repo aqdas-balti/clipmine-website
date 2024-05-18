@@ -1,183 +1,236 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    overflow-x: hidden;
+html {
+  overflow-x: hidden;
 }
 /*Nav Bar*/
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 100px;
 }
 nav .left {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 nav .menu ul {
-    display: flex;
+  display: flex;
 }
 nav .menu ul li {
-    list-style-type: none;
-    margin-right: 20px;
+  list-style-type: none;
+  margin-right: 20px;
 }
-nav .menu ul li select{
-    color: blue;
-    border: none;
+nav .menu ul li select {
+  color: blue;
+  border: none;
 }
 nav .right {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 nav .right ul {
-    display: flex;
+  display: flex;
 }
 nav .right ul li {
-    list-style-type: none;
-    margin-right: 20px;
+  list-style-type: none;
+  margin-right: 20px;
 }
 /*Discovery Section*/
-main .Hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-    background-image: url('./Images/F-img.jpg');
-
+main .Hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("./Images/F-img.jpg");
 }
-button{
-    color: white;
-    background-color: rgb(88, 88, 250);
-    width: 150px;
-    height:40px;
+button {
+  color: white;
+  background-color: rgb(88, 88, 250);
+  width: 150px;
+  height: 40px;
 }
 /*Discover Portion*/
-main .discover{
-    display: flex;
-    justify-content: center;
-
+main .discover {
+  display: flex;
+  justify-content: center;
 }
-main .discover p{
-    padding: 50px;
-    font-size: x-large;
+main .discover p {
+  padding: 50px;
+  font-size: x-large;
 }
-main .discover2{
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    padding: 10px 60px 10px 60px;
+main .discover2 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 10px 60px 10px 60px;
 }
-main .discover2 .left{
-    height: 250px;
-    width: 400px;
-    
+main .discover2 .left {
+  height: 250px;
+  width: 400px;
 }
-main .discover2 .left .two{
-    font-size: x-small;
-    font-weight: 300;
-    padding: 10px;
+main .discover2 .left .two {
+  font-size: x-small;
+  font-weight: 300;
+  padding: 10px;
 }
-main .discover2 .left .lastline{
-    border-radius: 4px;
-    height: 20px;
-    width: 300px;
-    font-size: small;
-    background-color:rgb(224, 224, 224);
+main .discover2 .left .lastline {
+  border-radius: 4px;
+  height: 20px;
+  width: 300px;
+  font-size: small;
+  background-color: rgb(224, 224, 224);
 }
-main .discover2 .center{
-
-    height: 300px;
-    width: 335px;
+main .discover2 .center {
+  height: 300px;
+  width: 335px;
 }
-main .discover2 .center img{
-    width: 100%;
+main .discover2 .center img {
+  width: 100%;
 }
-.discover2 .center p{
-    padding-top: 2px;
-    padding-bottom: 10px;
+.discover2 .center p {
+  padding-top: 2px;
+  padding-bottom: 10px;
 }
-main .discover2 .center .lastline{
-    border-radius: 4px;
-    height: 20px;
-    width: 100%;
-    font-size: small;
-    width: 100%;
-    background-color:rgb(224, 224, 224);
+main .discover2 .center .lastline {
+  border-radius: 4px;
+  height: 20px;
+  width: 100%;
+  font-size: small;
+  width: 100%;
+  background-color: rgb(224, 224, 224);
 }
-main .discover2 .right{
-    height: 250px;
-    width: 320px;
-    
+main .discover2 .right {
+  height: 250px;
+  width: 320px;
 }
-main .discover2 .right .lastline{
-    width: 
-    81%;
+main .discover2 .right .lastline {
+  width: 81%;
 }
-.para{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-top:50px ;
+.para {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
 }
-.para p{
-    height: 100px;
-    width: 600px;
+.para p {
+  height: 100px;
+  width: 600px;
 }
 
 /*Feature Section*/
-h1{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-    font-weight: 50;
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  font-weight: 50;
 }
-.features-sec{
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 50px;
+.features-sec {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
 }
-.features-sec .center{
-    background-size: cover;
-    width: 350px;
-   padding-left: 50px;
+.features-sec .center {
+  background-size: cover;
+  width: 350px;
+  padding-left: 50px;
 }
-.features-sec .left h3{
-    display: flex;
-    font-weight: 500;
-    padding-top: 10px;
-    justify-content: center;
+.features-sec .left h3 {
+  display: flex;
+  font-weight: 500;
+  padding-top: 10px;
+  justify-content: center;
 }
-.features-sec .left p{
-    text-align: center;
-    padding-top: 10px;
-    width: 320px;
-    font-size: small;
-    font-weight: 400;
+.features-sec .left p {
+  text-align: center;
+  padding-top: 10px;
+  width: 320px;
+  font-size: small;
+  font-weight: 400;
 }
-.features-sec .center h3{
-    padding-top: 10px;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
+.features-sec .center h3 {
+  padding-top: 10px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
 }
-.features-sec .center p{
-    padding-top: 10px;
-    font-size: small;
-    font-weight: 400;
-    width: 300px;
-    text-align: center;
+.features-sec .center p {
+  padding-top: 10px;
+  font-size: small;
+  font-weight: 400;
+  width: 300px;
+  text-align: center;
 }
 /*Benefits Section*/
+.benefits-sec {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 70px;
+}
+h2 {
+  font-weight: 20;
+}
+p {
+  font-size: small;
+}
+.benefits-sec .first-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 350px;
+}
+.benefits-sec .second-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 350px;
+}
+.benefits-sec .third-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 350px;
+}
+.benefits-sec .first-list .benefits-details-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 50px;
+}
+.benefits-sec .first-list img {
+  height: 80px;
+  width: 80px;
+}
 
-
-
+.benefits-sec .second-list .benefits-details-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 50px;
+}
+.benefits-sec .second-list img {
+  height: 80px;
+  width: 80px;
+}
+.benefits-sec .third-list .benefits-details-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 50px;
+}
+.benefits-sec .third-list img {
+  height: 80px;
+  width: 80px;
+}
