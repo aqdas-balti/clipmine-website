@@ -290,3 +290,22 @@ h2 {
 a {
   text-decoration: none;
 }
+
+/*Tag Portion*/
+.tag-section {
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.tag-section .search {
+  width: 400px;
+  height: 30px;
+  padding-left: 5px;
+}
+.tag-section .tag {
+  width: 80px;
+  height: 30px;
+  padding-left: 5px;
+  text-align: center;
+  background-color: rgb(86, 86, 255);
+}
